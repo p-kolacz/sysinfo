@@ -1,0 +1,30 @@
+* Introduction
+=sysinfo= provides basic info about operating system running Emacs.
+
+=sysinfo= sets two variables:
+
+=sysinfo-os-family= - operating system family like: Linux, Windows, maxOS, etc.  
+=sysinfo-os-type= - operating system type like: Android, cygwin, WSL, etc.
+
+* Currently detected systems
+
+| sysinfo-os-family | sysinfo-os-type |
+|-------------------+-----------------|
+| Linux             | Linux           |
+| Linux             | WSL             |
+| Linux             | Android         |
+| Windows           | mingw           |
+| Windows           | cygwin          |
+| macOS             | macOS           |
+| AIX               | AIX             |
+| BSD               | BSD             |
+| FreeBSD           | FreeBSD         |
+| GNU               | GNU             |
+| HP-UX             | HP-UX           |
+| MS-DOS            | MS-DOS          |
+| NaCl              | NaCl            |
+| SystemV           | SystemV         |
+
+
+
+
