@@ -25,6 +25,11 @@
 | NaCl              | NaCl            |
 | SystemV           | SystemV         |
 
-
+* Examples
+#+BEGIN_SRC emacs-lisp
+  (setq mswin (eq sysinfo-os-family 'Windows))
+  (setq wsl (eq sysinfo-os-type 'WSL))
+  (setq android (eq sysinfo-os-type 'Android))
+#+END_SRC
 
 

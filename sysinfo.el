@@ -48,8 +48,6 @@
                        usg-unix-v (SystemV SystemV)
                        windows-nt (Windows mingw)
                        ))
-  
-  ;; (let ((type (plist-get families system-type)))
        (x (plist-get families system-type)))
   
   (setq sysinfo-os-family (car x))
